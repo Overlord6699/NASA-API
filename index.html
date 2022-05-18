@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+    <link rel='shortcut icon' href="/assets/pictures/icons/nasa.png" type='image/x-icon'>
+
+    <link rel="stylesheet" href="/assets/styles/home.css">
+
+    <title>NASA</title>
+</head>
+
+<body>
+    <main>
+        <h1>NASA Picture Of The Day</h1>
+
+        <form class="search_container" onsubmit="return false;">
+            <input class="search_text" type="text" placeholder="Поиск">
+            <button class="search_button" type="submit" value="">
+                <img class="search_pict" src="/assets/pictures/icons/search.png" alt="Поиск"></img>
+            </button>
+        </form>
+
+        <ul class="pictures_container">
+        </ul>
+    </main>
+
+
+    <script src="asyncFetch.js"></script>
+    <script src="clicker.js"></script>
+</body>
+
+</html>
